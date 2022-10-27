@@ -11,3 +11,5 @@ customers can create bookings and pre-select their menus for their bookings as w
 The booking is specific to the date and time.
 
 ![Screenshot (401)](https://user-images.githubusercontent.com/80438950/198389343-13d06c6d-b803-44b8-be3b-adfe2752b79f.png)
+
+This website has been created using a blend of HTML, CSS, and Javascript.
