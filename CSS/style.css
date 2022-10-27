@@ -1,0 +1,104 @@
+
+html, body{
+	height: 100%;
+
+}
+
+
+.logo{
+	width: 100%;
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#heading{
+	color: #ffe66d ;
+	text-align: center;
+	font-size: 50px;
+}
+
+#title{
+	
+    font-size:45px;
+    text-align: center;	
+	
+}
+
+
+section, form{
+	
+	min-height: 60%;
+	padding-top: 50px, 20px;
+	padding-bottom: 30px;
+
+}
+
+section{
+	background-color: #ff6b6b ;
+	
+}
+
+form{
+	background-color: #FDEBD0;
+	border-spacing: 18px;
+}
+
+footer{
+	background-color: lightgray;
+	font-style: italic;
+	text-align: center;
+}
+
+
+#link{
+	color: red;
+}
+
+#link:hover{
+	color: blue;
+}
+
+label{
+	
+	margin-left:20px;
+	
+}
+.logo{
+	position: relative;
+	text-align: center;
+}
+
+.page_banner{
+	margin: 0; 
+	border-bottom: 5px solid #333;
+
+}
+
+legend{
+	
+	font-size: 22px;
+	color: red;
+}
+
+#dessert{
+	
+	font-style:italic;
+	font-size: 15px;
+}
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

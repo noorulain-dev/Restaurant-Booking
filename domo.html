@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ 
+<head>
+<meta charset="utf-8"/>
+<meta name="description" content="Domo"/>
+<meta name="keywords" content="food, restaurant"/>
+<meta name="author" content="Noor"/>
+  
+<title>Domo</title>
+<link rel="stylesheet" type="text/css" href="CSS/style.css"/>
+<script src="script.js"></script>
+</head>
+
+<body>
+
+<section id="page1">
+<header>	
+	<div class="logo">
+	<div class="page_banner">
+		<img src="images/logo.png" alt="Index Page Banner" class="slides" id="first"/>
+		<img src="images/pic1.jpg" alt="Index Page Banner" class="slides"/>
+		<img src="images/pic2.jpg" alt="Index Page Banner" class="slides">
+		<a id="previous" class="arrows" onclick="slideShow(-1)">&#10094;</a>
+		<a id="next" class="arrows" onclick="slideShow(1)">&#10095;</a>
+	</div>
+	</div>
+</header>
+
+<h1 id="heading"> Welcome to Domo Fine Japanese Cuisine </h1>
+ <div class="row">
+   <div class="column">
+<p>Kaiseki Ryori is one of the most famous traditional Japanese meals. It is also known as the Japanese Haute Cuisine (slow, fine dining) where it emphasizes not only good taste, but also the physical presentation as well as the way it is being served. </p>
+</div>
+
+  <div class="column">
+<img src="images/pic1.jpg" alt="food picture" id="img1"/>
+  <p>The origin of this dish can be traced back many centuries ago. It was first served as a dish during the tea ceremony, also known as “sado”. Like the tea ceremony, Kaiseki Ryori emphasizes simplicity (wabi) as well as elegancy (sabi). Over the years, Kaiseki Ryori has evolved from being a simple dish to today’s highly-defined Japanese cuisine. You can find this meal at high-end Japanese restaurants known as ryotei. It can also be found at ryokan or old inns around the hot spring areas. </p>
+</div>
+
+
+  <div class="column">
+<img src="images/pic2.jpg" alt="food picture" id="img2"/>
+  <p>The full course of Kaiseki Ryori usually divided into four parts – starters, main courses, shokuji (second dish) and dessert. The ingredients used for each dish served depend on the season and usually it will not repeat in one full course of Kaiseki Ryori. Let’s brief you on some of the common dishes you can expect from a full course of Kaiseki Ryori. </p>
+</div>
+</div>
+
+
+</section>
+
+
+<form id="domo" method="post">
+<h1 id="title"> Your Booking </h1>
+<fieldset>
+<legend> Booking </legend>
+
+      <p><label for="name"> First name:</label>
+	      <input type="text" id="name" name="name" placeholder="Enter your name"/>
+		  
+		  
+	  <label for= "phone"> Phone number: </label>
+	      <input type="number" maxlength= "11" id="phone" name="phone" placeholder="888-88888888"/> </p>
+		  
+		  
+		  
+      <p><label class="selections"> Category: </label>
+	  
+	   <select class="selections" name= "dropdown" id="dropdown">
+	   
+	   <option class="selections" value="Lunch(Buffet)">Lunch</option>
+	   <option class="selections" value="Lunch">Lunch</option>
+	   <option class="selections" value="Dinner(Buffet)">Dinner</option>
+	   <option class="selections" value="Dinner">Dinner</option>
+	   </select>
+	  
+	  <label> Date: <input type="date" id="date" name="date"/></label></p>
+	  
+	  <p><label for="pax"> Number of Pax:</label>
+	  <input type="number" id="pax" min="1" name="pax"/></p>
+	  
+	  <fieldset>
+	  
+	  <legend> Menu: </legend>
+	  
+	        <p><label><id="sushi "input type="checkbox" name="menu[]" value="Signature Sushi"/> Signature Sushi </label>
+			<label><input type="checkbox" name="menu[]" value="Signature Onigri" id="onigri"/> Signature Onigri </label>
+			<label><input type="checkbox" name="menu[]" value="Signature Bento Set" id="bento"/> Signature Bento Set </label>
+			<label><input type="checkbox" name="menu[]" id="fish" value="Fish Skin"/> Fish Skin </label></p>
+			
+		</fieldset>
+		
+		<fieldset>
+		
+		<legend> Dessert: </legend>
+		<p id="dessert"><em> Please Choose (1) </em><br/>
+		
+		<label><input type="radio" name="dessert" value="Signature Cake" id="sig"/>Signature Cake</label>
+        <label><input type="radio" id="green"name="dessert" value="Greentea Icecream"/>Greentea Icecream</label>
+        <label><input type="radio" name="dessert" id="choco" value="Choco Moist Cake"/>Choco Moist Cake</label></p>
+		
+		</fieldset>
+		
+		<input type="submit" value="Submit"/> 
+		
+		</fieldset>
+		    
+			</form>
+<footer>
+
+<p>Enquiries <a href="mailto: noor_ua@yahoo.com" title="click here for any enquiries" id="link"> Domo Fine Japanese Restaurant </a></p>
+
+</footer>
+
+</body>
+</html>
